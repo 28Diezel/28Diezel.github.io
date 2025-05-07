@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Practice</title>
+    <style>
+        body {
+            margin: auto;
+            background-color: #6F7D8C;
+
+        }
+        header, nav, article, footer {
+            background-color: #EAB464;
+            border: 5px solid #A61C3C;
+            margin: 5px;
+            padding: 5px;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav {
+            position: sticky;
+            top: 0px;
+            
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 0px;
+            margin-left: 0px;
+        }
+        nav ul li{
+            list-style-type: none;
+        }
+        @media only screen and (min-width: 600px) {
+            body {
+                width: 80%;
+            }
+            #content {
+                display: flex;
+            }
+            nav {
+                position: static;
+            }
+            nav ul {
+                display: block;
+            }
+            
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            placeholder
+        </h1>
+    </header>
+    <div id="content">
+        <nav>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div id="blogs">
+            <article>
+                <h2>Blog post</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra nibh ac nulla tincidunt tristique. Vivamus eu ultrices erat, ut imperdiet libero. Ut vel neque in turpis convallis pharetra. Maecenas leo tellus, luctus at mauris eu, efficitur volutpat lorem. Nam at massa in tortor tincidunt cursus vitae at enim. Nam metus ante, interdum non erat nec, aliquet tempus ex. Integer at est vel justo semper condimentum et ut diam. Nulla dignissim dui hendrerit felis condimentum finibus. Donec purus libero, imperdiet sed felis eu, accumsan fermentum velit. Suspendisse potenti. Praesent faucibus dolor sed dictum mollis. Praesent placerat tellus id blandit eleifend. Aenean nec sollicitudin orci. Proin at quam eu nulla condimentum imperdiet a ut justo.
+                </p>
+            </article>
+            <article>
+                <h2>Blog post</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra nibh ac nulla tincidunt tristique. Vivamus eu ultrices erat, ut imperdiet libero. Ut vel neque in turpis convallis pharetra. Maecenas leo tellus, luctus at mauris eu, efficitur volutpat lorem. Nam at massa in tortor tincidunt cursus vitae at enim. Nam metus ante, interdum non erat nec, aliquet tempus ex. Integer at est vel justo semper condimentum et ut diam. Nulla dignissim dui hendrerit felis condimentum finibus. Donec purus libero, imperdiet sed felis eu, accumsan fermentum velit. Suspendisse potenti. Praesent faucibus dolor sed dictum mollis. Praesent placerat tellus id blandit eleifend. Aenean nec sollicitudin orci. Proin at quam eu nulla condimentum imperdiet a ut justo.
+                </p>
+            </article>
+            <article>
+                <h2>Blog post</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra nibh ac nulla tincidunt tristique. Vivamus eu ultrices erat, ut imperdiet libero. Ut vel neque in turpis convallis pharetra. Maecenas leo tellus, luctus at mauris eu, efficitur volutpat lorem. Nam at massa in tortor tincidunt cursus vitae at enim. Nam metus ante, interdum non erat nec, aliquet tempus ex. Integer at est vel justo semper condimentum et ut diam. Nulla dignissim dui hendrerit felis condimentum finibus. Donec purus libero, imperdiet sed felis eu, accumsan fermentum velit. Suspendisse potenti. Praesent faucibus dolor sed dictum mollis. Praesent placerat tellus id blandit eleifend. Aenean nec sollicitudin orci. Proin at quam eu nulla condimentum imperdiet a ut justo.
+                </p>
+            </article>
+        </div>
+    </div>
+    <footer>
+            Made by Diezel Paragon, 2025
+    </footer>
+</body>
+
+</html>
