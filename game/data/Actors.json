@@ -13,6 +13,6 @@ null,
 {"id":11,"battlerName":"Kielly","characterIndex":2,"characterName":"custom1","classId":2,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"custom1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Kielly","nickname":"","note":"","profile":""},
 {"id":12,"battlerName":"","characterIndex":0,"characterName":"Nature_mv","classId":14,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature_mv","traits":[],"initialLevel":1,"maxLevel":99,"name":"Butterdog","nickname":"B-Dawg","note":"","profile":"The dog with butter on him."},
 {"id":13,"battlerName":"","characterIndex":2,"characterName":"Nature","classId":14,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"Nature","traits":[],"initialLevel":1,"maxLevel":99,"name":"JimBob","nickname":"","note":"","profile":""},
-{"id":14,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":14,"battlerName":"Pehnix","characterIndex":3,"characterName":"custom","classId":15,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"custom1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Pheonix","nickname":"","note":"","profile":""},
 {"id":15,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
 ]
